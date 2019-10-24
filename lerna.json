@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/*"
+    "packages/story",
+    "packages/timeline"
   ],
-  "version": "0.0.0"
+  "version": "0.0.1"
 }

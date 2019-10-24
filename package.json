@@ -1,6 +1,11 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "history",
+  "scripts": {
+    "dev": "cd packages/story && npm run serve",
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap && npm run dev && cd ../.."
+  },
   "devDependencies": {
     "lerna": "^3.18.3"
   }
